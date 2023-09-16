@@ -1,0 +1,21 @@
+.content {
+  flex-flow: row wrap;
+  .boxshadows {
+    flex: 0 0 100%;
+    height: 10em;
+  }
+}
+
+.gradient {
+  flex: 0 0 100%;
+  height: 10em;
+  background-color: color(display-p3 1 1 1 1);
+  .grid {
+    display: grid;
+    grid-template-rows: 3em 3em 3em 3em;
+    grid-template-columns: 3em 3em 3em 3em;
+    [class^="grid-item"] {
+      border: solid 1px black;
+    }
+  }
+}
